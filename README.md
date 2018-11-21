@@ -1,2 +1,2 @@
-# wgannon.github.io
+# https://wgannon.github.io
 My Personal Website
