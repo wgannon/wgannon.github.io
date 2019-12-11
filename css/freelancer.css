@@ -348,7 +348,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #187dbc !important;
+       background-image: url("img/paper.jpg");
 }
 
 .bg-secondary {
