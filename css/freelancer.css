@@ -17,7 +17,25 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat';
 }
+#compass-wrap {
+  display: block;
+  position: absolute;
+  width: 30%;
 
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+#compass-wrap:hover {
+  display: block;
+  position: absolute;
+  width: 30%;
+
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
 hr.star-light,
 hr.star-dark {
   max-width: 15rem;
@@ -348,7 +366,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-       background-image: url("img/paper.jpg");
+       background-image: url("img/paper.jpg") !important;
 }
 
 .bg-secondary {
