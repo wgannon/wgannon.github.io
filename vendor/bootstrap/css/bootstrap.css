@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
+  --primary: #0B3D91;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -6073,7 +6073,7 @@ button.close {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-color: #0B3D91 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,

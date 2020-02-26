@@ -366,7 +366,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-       background-image: url("img/paper.jpg") !important;
+  background-color: #FC3D21;
 }
 
 .bg-secondary {
