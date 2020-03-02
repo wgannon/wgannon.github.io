@@ -182,7 +182,7 @@ section h2 {
 
 header.masthead {
     padding-top: calc(6rem + 72px);
-    padding-bottom: 6rem
+    padding-bottom: 3rem
 }
 
 header.masthead h1 {
@@ -208,6 +208,14 @@ header.masthead h2 {
 
     header.masthead h2 {
         font-size: 1.75em
+    }
+    header.masthead #compass-wrap {
+        height:100%;
+        width: 100%;
+    }
+    header.masthead img {
+        vertical-align: top;
+        width: 30%;
     }
 }
 
