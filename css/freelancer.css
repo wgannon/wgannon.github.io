@@ -387,8 +387,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #187dbc;
-  border-color: #187dbc;
+  background-color: #FC3D21;
+  border-color: #FC3D21;
 }
 
 .btn-secondary {
