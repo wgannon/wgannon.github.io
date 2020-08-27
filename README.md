@@ -13,6 +13,9 @@ My Personal Website
     and also have something that sends a notification everytime the button for download is hit. 
     Update the resume itself plus create seperate ones for various positions like GIS Analyst/Specialist, Web Developer, ect.
 5. Decide if I want a working contact me form.
+    UPDATED: I don't...
 6. Correct the links to github account. Remove twitter handle until you can review it all. 
+    UPDATE: I think I reviewed it all but will remove it as it's not a "proffesional" twitter account. 
 7. Add more projects to the portfolio, clean up previous projects and repost them. Also in the gallery make them smaller boxes
     and outlined, don't forget to change the hover over from the default theme. 
+    UPDATE: still need to change sizing but added all Grad Projects to the portfolio. 
