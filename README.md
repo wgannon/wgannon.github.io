@@ -19,3 +19,5 @@ My Personal Website
 7. Add more projects to the portfolio, clean up previous projects and repost them. Also in the gallery make them smaller boxes
     and outlined, don't forget to change the hover over from the default theme. 
     UPDATE: still need to change sizing but added all Grad Projects to the portfolio. 
+    GOALS: Will try to organize projects by either class or skill instead of Individuallly?
+    
