@@ -21,7 +21,6 @@ h6 {
   display: block;
   position: absolute;
   width: 30%;
-
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   transform: rotate(0deg);
@@ -36,48 +35,7 @@ h6 {
   -moz-transform: rotate(0deg);
   transform: rotate(0deg);
 }
-hr.star-light,
-hr.star-dark {
-  max-width: 15rem;
-  padding: 0;
-  text-align: center;
-  border: none;
-  border-top: solid 0.25rem;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-hr.star-light:after,
-hr.star-dark:after {
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f005';
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: 2em;
-}
-
-hr.star-light {
-  border-color: #fff;
-}
-
-hr.star-light:after {
-  color: #fff;
-  background-color: #187dbc;
-}
-
-hr.star-dark {
-  border-color: #2C3E50;
-}
-
-hr.star-dark:after {
-  color: #2C3E50;
-  background-color: white;
-}
 
 section {
   padding: 6rem 0;
@@ -191,8 +149,8 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 header.masthead h1 {
@@ -203,12 +161,13 @@ header.masthead h1 {
 header.masthead h2 {
   font-size: 1.3rem;
   font-family: 'Lato';
+  align-items: baseline;
 }
 
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
+    padding-bottom: calc(6rem + 106px);
   }
   header.masthead h1 {
     font-size: 4.75em;
