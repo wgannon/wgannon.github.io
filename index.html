@@ -64,7 +64,7 @@
           </div>
         </div>
       </div>
-      <h2 class="font-weight-light mb-0">Geo-Specialist   -   Cartographer   -   Developer</h2>
+      <h2 class="font-weight-light mb-0">Developer ~ GIS Tech-Specialist ~ Cartographer</h2>
     </header>
 
     <!-- Portfolio Grid Section -->
@@ -91,7 +91,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/CommuteForecast.png" alt="">
+              <img class="img-fluid" src="img/portfolio/CommuteForecast.GIF" alt="">
             </a>
           </div>
 
@@ -295,11 +295,22 @@
               <!--<!--<hr class="star-dark mb-5"> --></br></br>
               <img class="img-fluid mb-5" src="img/portfolio/DentalDeserts_2.png" alt="">
               <a href="https://gerirosenberg.github.io/careless-decay/">Link to Site: Careless Decay <a/>
-              <br><a href="https://nacis.org/awards/2019-winner-rosenberg-rodenberger-gannon/">Winner of the NACIS Student Dynamic Map Competition<a/> 
-              <p class="mb-5">This project was a team effort over Github to create a story map
-              that informs about the status of dental care in the US. It also provides an interactive
-              experince for anyone to look around their home town to see how well people may be
-              taken care of.
+              <br><a href="https://nacis.org/awards/2019-winner-rosenberg-rodenberger-gannon/">Winner of the NACIS Student Dynamic Map Competition<a/>
+              <p class="mb-5" text-align="left" >
+                <strong>Created:</strong> 
+                  2019 </br></br>
+                <strong>About:</strong> </br> 
+                  This was the final group project for Course GEOG575 Interactive Cartography & Geo-visualization. 
+                  My group consisted of myself, Geri Rosenberg, and Matt Rodenberger and it won the NACIS Student Dynamic Mapping Competition in 2019. 
+                  The application is meant to act as an informational tool to raise awareness of where and why some areas have what are known as Dental Deserts. 
+                  These Deserts signify a lack in ability to get enough or adequate dental care. </br>
+                <strong>Technicals: </strong> </br>
+                  It is a Javascript web application using Leaflet to process GeoJSON’s showing the data over a Mapbox base map. The information's 
+                  colors are assigned from the GeoJSON attributes via a JavaScript function. The primary interaction was a scroll monitor which would zoom to 
+                  the place that was being discussed in the information panel. Some other functions used to improve User Experience is the ability to zoom and 
+                  pan around the map with buttons. Tool-tips were also used so that the user can see more information of each county. </br>
+                <strong>Data:</strong>  </br>
+                  Data taken from the Health Resource & Services Admin and US Census Bureau was processed in PostgreSQL to create a shortage score on a county level. 
               </p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
@@ -319,12 +330,22 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Commute Forecast</h2>
               <!--<!--<hr class="star-dark mb-5"> --></br></br>
-              <img class="img-fluid mb-5" src="img/portfolio/CommuteForecast.png" alt="">
+              <img class="img-fluid mb-5" src="img/portfolio/CommuteForecast.GIF" alt="">
                     <a href="https://www.commuteforecast.com/">Link to Site: www.commuteforecast.com<a/> 
-              <p class="mb-5">This is a web application for people in or around my home state 
-               of New Jersey to calculate the costs of travel for work. Or in this post pandemic world it might
-              be useful to see exactly how much they are saving.</br>It's simple to use. You add in the details, some links are provided
-              to outside resources, and hit submit to see an approximate amount of resources you use each day,work-week, month, or year. </p>
+              <p class="mb-5">
+              <strong>Created: </strong>  
+              2020</br></br>
+              <strong>About:  </strong> </br>
+              This was the Beta version and Final for my Masters Practicum. I wanted to create something that might be useful 
+              and utilize some of the existing technology. I choose commuting because at the time I was trying to figure out where to 
+              move to while also keeping my commuting budget in mind. I learned what could be used of the Google Maps API to create a 
+              calculator along with a visual representation of a given route for Commuting. </br>
+              <strong>Technicals: </strong>  </br>
+              This is a JavaScript web application using Google Maps API to display a route, Deployed on Heroku. </br>
+             <strong> Data:</strong> </br>
+             The data is user inputted and not saved. The user inputs are processed and made to be consumed by the Google Maps 
+              API call and display both the Google Route and several calculations made with the data that the call returns returns. 
+              </p>
          
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
@@ -347,9 +368,20 @@
               <!--<!--<hr class="star-dark mb-5"> --></br></br>
               <img class="img-fluid mb-5" src="img/portfolio/NHLAttendence.png" alt="">
               <a href="https://wgannon.github.io/NHL_Map/">Link to Site: NHL Attendance<a/>
-              <p class="mb-5">This was a fun project to work with Leaflet and Jquery to create a time
-              series map for average attendance for the year. It also incorperates a Mapbox Basemap and 
-              an element to choose a team and bar along the bottom to scroll through the years. </p>
+              <p class="mb-5">
+              <strong>Created:</strong> 
+              2019</br></br>
+              <strong>About:</strong> </br>
+              This was a fun project to visualize the different attendance of each NHL team each year. It allowed me
+              to create a few different User experience elements like the drop down team picker that zooms to the team and 
+              the range slider to choose the year.
+              I’m a Devils fan but wanted to see if common “chirps” had any truth to them. While some I 
+              believe to be true some teams have unknown upside as they sold out their seats every game no matter the opponent. </br>
+              <strong>Technicals:</strong> </br>
+              Created using JavaScript and Jquery to manage the state of the </br>
+              <strong>Data:</strong> </br>
+              The data is from ESPN and processed as a GeoJSON for each teams Arena Location. The averages calculated as an average percentage of the total attendance capacity.
+              </p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
